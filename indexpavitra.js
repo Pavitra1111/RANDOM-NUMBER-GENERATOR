@@ -96,7 +96,7 @@ $(document).ready(function(){
 
     // hook start button
     $('.go').on('click',function(){
-        var timer = 2000;
+        var timer = 200;
         spin(timer);
     })
 
