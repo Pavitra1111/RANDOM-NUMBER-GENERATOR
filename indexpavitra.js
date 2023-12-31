@@ -22,7 +22,7 @@ function createSlotsAlias (ring) {
         // setup the number to show inside the slots
         // the position is randomized to 
 
-        var content = $(slot).append('<p>' + ((seed + i)%3)+ '</p>');
+        var content = $(slot).append('<p>' + ((seed + i)%5)+ '</p>');
 
         // add the poster to the row
         ring.append(slot);
